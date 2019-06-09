@@ -1,12 +1,10 @@
 package dev.docbot;
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
-
 @RestController
 public class OrderController {
     @GetMapping("/api/queryOrder")
